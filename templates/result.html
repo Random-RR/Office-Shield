@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analysis Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body class="dark-cyber-bg">
+    <div class="container">
+        <h1 class="text-gradient">Analysis Results</h1>
+        <div class="results">
+            <div class="result">
+                <p class="result-label">Suspicious</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: {{ results.suspicious }}%"></div>
+                </div>
+                <p class="result-value">{{ results.suspicious }}%</p>
+            </div>
+            <div class="result">
+                <p class="result-label">Malicious</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: {{ results.malicious }}%"></div>
+                </div>
+                <p class="result-value">{{ results.malicious }}%</p>
+            </div>
+            <div class="result">
+                <p class="result-label">Undetected</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: {{ results.undetected }}%"></div>
+                </div>
+                <p class="result-value">{{ results.undetected }}%</p>
+            </div>
+        </div>
+        <a href="/" class="button">Go Back to Upload</a>
+    </div>
+</body>
+</html>

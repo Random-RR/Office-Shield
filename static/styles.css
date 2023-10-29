@@ -1,0 +1,166 @@
+/* Dark Cyber Theme */
+body {
+    background-color: #111;
+    color: #0ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    margin: 20px auto;
+    width: 50%;
+    animation: fadeIn 2s;
+    text-align: center;
+}
+
+.text-gradient-blue {
+    background: linear-gradient(45deg, #00f, #0ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: textGradient 4s infinite;
+    text-align: center;
+}
+
+.text-gradient {
+    background: linear-gradient(45deg, #808, #f0f);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: textGradient 4s infinite;
+    text-align: center;
+    font-size: 20px;
+}
+
+.text-gradient-red {
+    background: linear-gradient(45deg, #f00, #ff0);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: textGradientRed 4s infinite;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Upload Page */
+.upload-container {
+    text-align: center;
+}
+
+.upload-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.upload-form {
+    margin-top: 20px;
+}
+
+.upload-form input[type="file"] {
+    display: none;
+}
+
+.upload-form label {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px; /* Adjust font size as needed */
+    text-align: center;
+    display: inline-block; /* Ensures the button takes up only necessary space */
+    margin-top: 10px; /* Add some top margin for spacing */
+}
+
+.upload-form label:hover {
+    background-color: #2980b9;
+}
+
+.upload-form input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 18px; /* Adjust font size as needed */
+    text-align: center;
+    margin-top: 10px; /* Add some top margin for spacing */
+}
+
+.upload-form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.upload-status {
+    margin-top: 20px;
+}
+
+/* Result Page */
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.result-label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #0ff;
+}
+
+.progress-bar {
+    background-color: #111;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    transition: width 1s;
+    background-color: #0ff;
+    border-radius: 5px;
+}
+
+.result-value {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #0ff;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes textGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
