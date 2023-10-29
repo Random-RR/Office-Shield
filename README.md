@@ -1,6 +1,6 @@
 # OfficeShield Browser Extension
 
-![OfficeShield Logo]()
+<img src="https://github.com/Random-RR/Office-Shield/blob/main/Extension/icons/icon.png" width="100" height="100" alt="OfficeShield Logo">
 
 OfficeShield is a lightweight browser extension designed to help users analyze Microsoft Office files for potential threats and malware conveniently. It leverages the power of the VirusTotal API to provide quick and reliable analysis results. This extension is built to be user-friendly, making it easy to scan Office files directly from your browser.
 
