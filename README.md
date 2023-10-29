@@ -52,7 +52,9 @@ To enable the full functionality of OfficeShield, you'll need to run the backend
 
 ## Disclaimer
 
-OfficeShield is intended for educational and security analysis purposes. Use it responsibly and in compliance with applicable laws and regulations. The developers of OfficeShield are not responsible for any misuse of this tool.
+**OfficeShield is intended solely for educational and security analysis purposes.** This project is designed to help users understand and explore the process of analyzing Microsoft Office files for potential threats and malware. It is not meant for any malicious or unethical use.
+
+Please use OfficeShield responsibly and ensure that you comply with all applicable laws and regulations in your use of the tool. The developers of OfficeShield are not responsible for any misuse or illegal activities related to this tool.
 
 ## Contributing
 
@@ -63,10 +65,4 @@ We welcome contributions from the open-source community. Feel free to submit iss
 - [Ravindu Rajasinghe](https://github.com/Random-RR)
 
 ---
-
-## Disclaimer
-
-**OfficeShield is intended solely for educational and security analysis purposes.** This project is designed to help users understand and explore the process of analyzing Microsoft Office files for potential threats and malware. It is not meant for any malicious or unethical use.
-
-Please use OfficeShield responsibly and ensure that you comply with all applicable laws and regulations in your use of the tool. The developers of OfficeShield are not responsible for any misuse or illegal activities related to this tool.
 
